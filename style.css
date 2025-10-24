@@ -1,0 +1,12 @@
+body { font-family: Arial, sans-serif; margin: 0; padding: 0; line-height: 1.6; background: #fafafa; color: #333; }
+header { background: #2c6e49; color: #fff; padding: 10px 15px; position: sticky; top: 0; display: flex; align-items: center; justify-content: space-between; }
+header h1 { font-size: 1.1rem; margin: 0; }
+nav { display: none; flex-direction: column; }
+nav a { color: #fff; text-decoration: none; padding: 6px 0; font-size: 0.95rem; }
+.menu-toggle { background: none; border: none; color: #fff; font-size: 1.3rem; }
+.hero { text-align: center; padding: 30px 10px; background: #e2f0e8; }
+.info { padding: 15px; }
+ul { padding-left: 20px; }
+footer { background: #2c6e49; color: #fff; text-align: center; padding: 10px 5px; margin-top: 20px; }
+nav.show { display: flex; }
+@media (min-width: 700px) { nav { display: flex; flex-direction: row; gap: 15px; } .menu-toggle { display: none; } }
